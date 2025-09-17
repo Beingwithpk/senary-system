@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Doto:wght@100..900&family=Jersey+25&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Playwrite+AU+QLD:wght@100..400&family=Poppins:wght@400;600;700&family=Workbench&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Poppins','sans-serif' ;
+  display: flex;
+  box-sizing: border-box;
+  /* position: absolute; 
+  /* -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Poppins','sans-serif'; 
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center; */
+  /* min-height: 100vh; */
+  /* background: url(./Components/LoginForm/bg4.jpg) no-repeat; */
+}
+
+/* h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+} */

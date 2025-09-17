@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent2{
+    position: relative;
+    height: 100%;
+    /* width: 100%; */
+    background: url(startbg5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.container .portal{
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 135px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    height: 300px ;
+    width: 400px;
+}
+.container .portal h1{
+    color: white;
+    text-align: center;
+}
+.student-img{
+    padding-left: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+}
+.teachers-img{
+    padding-left: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 210px;
+    transform: translateX(-10%);
+}
