@@ -13,9 +13,10 @@ function App() {
   return (
     <>
     {start?<Start useStart={useStart} useLogin={useLogin}/>:``}
-    {login?<LoginForm useLogin={useLogin} useDashboard={useDashboard} />:``}
-    {dashboard?<Dashboard useDashboard={useDashboard} useCamera={useCamera}/>:``}
-    {camera?<Camera  />:``}
+    {login?<LoginForm useStart={useStart} useLogin={useLogin} useDashboard={useDashboard} />:``}
+    {dashboard?<Dashboard useLogin={useLogin} useDashboard={useDashboard} useCamera={useCamera}/>:``}
+    {camera?<Camera useDashboard={useDashboard} useCamera={useCamera}  />:``}
+    {/* <Camera/> */}
     </>
   )
 }

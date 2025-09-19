@@ -5,7 +5,7 @@ import { FaUser, FaLock } from "react-icons/fa";
 
 
 
-const LoginForm = ({useLogin,useDashboard}) => {
+const LoginForm = ({useLogin,useDashboard,useStart}) => {
   return (
     <div className='parent'>
     <div className='wrapper'>
@@ -25,7 +25,9 @@ const LoginForm = ({useLogin,useDashboard}) => {
             </div>
                 <button type='submit'  onClick={()=>{useLogin(false); useDashboard(true)}}>Login</button>
         </form>
+        <button className='back' onClick={()=>{useLogin(false);useStart(true)}}>Return to Previous page</button>
     </div>
+    
     </div>
   )
 }

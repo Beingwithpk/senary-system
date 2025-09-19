@@ -79,6 +79,7 @@
     text-decoration: underline;
 }
 .wrapper button{
+    margin: 10px;
     width: 100%;
     height: 45px;
     background-color: #fff;
